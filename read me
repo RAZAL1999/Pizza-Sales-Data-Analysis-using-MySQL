@@ -1,0 +1,60 @@
+Pizza Sales Data Analysis with MySQL
+Project Overview
+This project focuses on analyzing pizza sales data to uncover key business insights. Utilizing MySQL Workbench, I performed various SQL queries to understand customer behavior, popular products, and revenue trends, providing actionable intelligence for business decision-making.
+
+Domain
+Data Analysis and Business Intelligence in the Food & Beverage industry.
+
+Key Features & Analysis
+Identified the most common pizza order quantities.
+
+Determined the highest-priced pizza.
+
+Analyzed the most frequently ordered pizza sizes.
+
+Identified top 5 pizza types by quantity.
+
+Calculated total quantity ordered per pizza category.
+
+Explored category-wise distribution of pizza types.
+
+Determined top 3 pizza types based on revenue.
+
+Calculated total revenue and percentage share by pizza category.
+
+Technologies Used
+MySQL Workbench: For database management and SQL querying.
+
+SQL: For data extraction, transformation, and analysis.
+
+Project Structure (Files to Upload)
+To set up this project, you would typically upload the following:
+
+pizza_sales_schema.sql (or similar):
+
+This file should contain the SQL script to create the database schema (tables like orders, order_details, pizzas, pizza_types) and populate them with sample data. This is crucial for anyone to replicate your environment.
+
+If you don't have this, you'll need to create it based on your database structure.
+
+pizza_sales_queries.sql (or similar):
+
+This file will contain all the SQL queries you wrote and executed in MySQL Workbench for your analysis. You can copy-paste them directly from your SQL files (e.g., SQL File 4, SQL File 5, etc., as seen in your screenshots).
+
+Organize them with comments (--) explaining what each query does, similar to how you had them in your PDF.
+
+README.md: (This file itself)
+
+Provides an overview of your project.
+
+screenshots/ (Optional Directory):
+
+You can create a folder named screenshots/ and include the images you provided (or similar ones) showing your MySQL Workbench interface with queries and results. This visually demonstrates your work.
+
+For example: screenshots/query_most_common_size.jpg, screenshots/query_revenue_by_category.jpg.
+
+How to Use/Run
+Set up MySQL: Ensure you have MySQL Server and MySQL Workbench installed.
+
+Create Database & Tables: Execute the pizza_sales_schema.sql script in MySQL Workbench to create the database and tables.
+
+Run Analysis Queries: Open pizza_sales_queries.sql in MySQL Workbench and execute the queries to reproduce the analysis.
